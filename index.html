@@ -30,7 +30,56 @@
         </div>
     </header>
 
+    <!-- 🔥 Flash Deals Banner -->
+    <div class="deals-banner">
+        🔥 Flash Deals — Limited time only!
+        <span id="dealsTimer" class="countdown">00:00:00</span>
+    </div>
+
     <main>
+        <!-- 🖼️ Banner Auto Slider Section -->
+        <div class="banner-slider">
+            <div class="slides">
+                <img src="images/banner1.jpg" alt="Banner 1">
+                <img src="images/banner2.jpg" alt="Banner 2">
+                <img src="images/banner3.jpg" alt="Banner 3">
+            </div>
+        </div>
+
+        <!-- 🏷️ Deals Section -->
+        <section id="deals">
+            <h2>Deals of the Day</h2>
+            <div class="deal-grid" id="dealsGrid"></div>
+        </section>
+
+        <!-- 🏷️ Categories Section -->
+        <section id="categories">
+            <h2>Shop by Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <img src="images/mobile-category.jpg" alt="Mobiles">
+                    <p>Mobiles</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/laptop-category.jpg" alt="Laptops">
+                    <p>Laptops</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/fashion-category.jpg" alt="Fashion">
+                    <p>Fashion</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/electronics-category.jpg" alt="Electronics">
+                    <p>Electronics</p>
+                </div>
+                <div class="category-card">
+                    <img src="images/furniture-category.jpg" alt="Furniture">
+                    <p>Furniture</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🛒 Top Products -->
         <h2>Top Products</h2>
         <div id="productContainer" class="product-list"></div>
     </main>

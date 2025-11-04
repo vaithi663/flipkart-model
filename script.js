@@ -1,15 +1,15 @@
 // 🛍️ Product List
 const products = [
-    { id: 1, name: "Smartphone", price: 14999, img: "images/phone.jpg", category: "mobiles" },
-    { id: 2, name: "Laptop", price: 49999, img: "images/laptop.jpg", category: "laptops" },
-    { id: 3, name: "Smartwatch", price: 4999, img: "images/watch.jpg", category: "mobiles" },
-    { id: 4, name: "Shoes", price: 1999, img: "images/shoes.jpg", category: "clothes" },
-    { id: 5, name: "Television", price: 25999, img: "images/tv.jpg", category: "electronics" },
-    { id: 6, name: "Bag", price: 999, img: "images/bag.jpg", category: "clothes" },
-    { id: 7, name: "Camera", price: 29999, img: "images/camera.jpg", category: "electronics" },
-    { id: 8, name: "Headphones", price: 1999, img: "images/headphones.jpg", category: "electronics" },
-    { id: 9, name: "Perfume", price: 799, img: "images/perfume.jpg", category: "clothes" },
-    { id: 10, name: "Table", price: 15999, img: "images/table.jpg", category: "furniture" }
+    { id: 1, name: "Smartphone", price: 14999, img: "phone.jpg", category: "mobiles" },
+    { id: 2, name: "Laptop", price: 49999, img: "laptop.jpg", category: "laptops" },
+    { id: 3, name: "Smartwatch", price: 4999, img: "watch.jpg", category: "mobiles" },
+    { id: 4, name: "Shoes", price: 1999, img: "shoes.jpg", category: "clothes" },
+    { id: 5, name: "Television", price: 25999, img: "tv.jpg", category: "electronics" },
+    { id: 6, name: "Bag", price: 999, img: "bag.jpg", category: "clothes" },
+    { id: 7, name: "Camera", price: 29999, img: "camera.jpg", category: "electronics" },
+    { id: 8, name: "Headphones", price: 1999, img: "headphones.jpg", category: "electronics" },
+    { id: 9, name: "Perfume", price: 799, img: "perfume.jpg", category: "clothes" },
+    { id: 10, name: "Table", price: 15999, img: "table.jpg", category: "furniture" }
 ];
 
 // 🧱 Show Products on Home Page
@@ -227,4 +227,5 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 });
+
 

@@ -153,6 +153,25 @@
 
         renderCart();
     </script>
+    <!-- ✅ Place Order Section -->
+    <div class="order-section" style="text-align:center; margin-top:30px;">
+        <button id="placeOrderBtn"
+            style="padding:10px 25px; font-size:18px; background:#2874f0; color:white; border:none; border-radius:8px; cursor:pointer;">
+            ✅ Place Order
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // 👉 Connect button with order function
+        const btn = document.getElementById("placeOrderBtn");
+        if (btn) {
+            btn.addEventListener("click", () => {
+                placeOrder(); // From script.js
+            });
+        }
+    </script>
+
 </body>
 
 </html>
